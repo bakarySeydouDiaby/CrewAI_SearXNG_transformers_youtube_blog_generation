@@ -1,6 +1,6 @@
 import warnings
 
-from crew_zaai.src.crew_zaai.crew import CrewZaai
+from crew import CrewZaai
 from dotenv import load_dotenv
 
 

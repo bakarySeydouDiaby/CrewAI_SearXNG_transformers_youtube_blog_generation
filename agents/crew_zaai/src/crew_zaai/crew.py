@@ -1,8 +1,8 @@
 import os
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from crew_zaai.src.crew_zaai.tools.searx import SearxSearchTool
-from crew_zaai.src.crew_zaai.tools.youtube import YouTubeTranscriptTool
+from tools.searx import SearxSearchTool
+from tools.youtube import YouTubeTranscriptTool
 
 
 @CrewBase
