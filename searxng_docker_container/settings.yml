@@ -1,0 +1,34 @@
+server:
+  secret_key: "Bakary10!"
+  base_url: "http://localhost:8080/"
+  image_proxy: true  # Optional but recommended
+  cache: false  # Optional (set to true if you want caching)
+
+search:
+  autocomplete: "google"
+  safe_search: 0
+
+ui:
+  static_use_hash: true
+  theme: simple
+
+outgoing:
+  request_timeout: 3.0
+  useragent_suffix: "My SearXNG Instance"
+
+authentication:
+  enabled: true
+  method: token
+  token:
+    enabled: true
+    limit: 10
+
+doi_resolvers:
+  oadoi.org: 'https://oadoi.org/'
+  doi.org: 'https://doi.org/'
+  doai.io: 'https://dissem.in/'
+  sci-hub.se: 'https://sci-hub.se/'
+  sci-hub.st: 'https://sci-hub.st/'
+  sci-hub.ru: 'https://sci-hub.ru/'
+
+default_doi_resolver: 'oadoi.org'

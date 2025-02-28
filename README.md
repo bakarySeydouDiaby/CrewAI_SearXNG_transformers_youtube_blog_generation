@@ -1,8 +1,12 @@
 # Welcome to the AI Experiments Lab at ZAAI 🧠🤖
 
-Our lab specializes in crafting artificial intelligence solutions across a spectrum of fields such as Large Language Models, Time Series Forecasting, Recommender Systems, and advanced Marketing Models including Causal Inference and Media Mix Modeling. Published on Medium, Towards Data Science, and [ZAAI's Lab](https://zaai.ai/lab), we offer a rich collection of insights and resources. Our objective is to share our specialized expertise in AI, providing open-source tools, datasets, and comprehensive guidance. We are committed to empowering individuals, professionals, and organizations to leverage our experiments and innovations for solving complex challenges and enhancing decision-making in their respective areas.
+ZAAI lab specializes in crafting artificial intelligence solutions across a spectrum of fields such as Large Language Models, Time Series Forecasting, Recommender Systems, and advanced Marketing Models including Causal Inference and Media Mix Modeling. Published on Medium, Towards Data Science, and [ZAAI's Lab](https://zaai.ai/lab), they offer a rich collection of insights and resources. 
 
-🌟 Appreciate our work? A star on our repository helps support our continuous exploration and contributions to the AI community!
+## objectives :
+- share specialized expertise in AI, 
+- providing open-source tools, datasets, and comprehensive guidance. 
+- committed to empowering individuals, professionals, and organizations to leverage experiments and innovations for solving complex challenges and enhancing decision-making in their respective areas.
+
 
 ## 🛠 Getting Started
 
@@ -13,12 +17,17 @@ Clone the repository using the following command:
 
 Our organizational structure is the following: First, we have parent directories categorized by area, such as `large-language-models`, `time-series-forecasting`, `recommender-systems`, etc. Inside each of these parent directories, there is a second level consisting of individual directories for each article. These article directories contain all the necessary dependencies and instructions related to that specific experiment, ensuring they are self-contained.
 
-## ⚖️ License
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). This means you are free to adapt and distribute the contents of this repository for non-commercial purposes as long as you provide proper attribution.
+## 🛠 My 2 projects
 
-For any commercial use, please request permission.
+### Explanation
 
-## About ZAAI
+`[CreawAI Multi Agents Systems](agents/crew_zaai/README.md)`: The crew-zaai Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
-Welcome to ZAAI, where we redefine the future of businesses through the seamless integration of human and artificial intelligence. Our mission is to be your trusted AI partner, guiding you from ground zero to advanced AI solutions that propel your organization to new heights. Visit us at [https://zaai.ai/](https://zaai.ai/) to learn more.
+**Note**
+for this project to work correctly, we define another docker project
+see (searxng_docker_container/README.md)
+
+
+`[AI agents with visual navigation capabilities](agents/visual_agents_framework/README.md)`: Building Visual Agents that can Navigate the Web Autonomously [source documentation](https://zaai.ai/building-visual-agents-that-can-navigate-the-web-autonomously/)
+
